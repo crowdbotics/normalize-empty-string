@@ -1,5 +1,5 @@
 {
-  "name": "normalize-empty-string",
+  "name": "@crowdbotics/normalize-empty-string",
   "version": "0.0.0",
   "description": "Nor",
   "homepage": "https://github.com/crowdbotics/normalize-empty-string",
