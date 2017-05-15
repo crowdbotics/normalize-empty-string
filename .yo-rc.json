@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Crowdbotics",
+      "authorEmail": "ghazali@crowdbotics.com",
+      "authorUrl": "crowdbotics.com"
+    }
+  }
+}

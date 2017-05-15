@@ -1,0 +1,46 @@
+{
+  "name": "normalize-empty-string",
+  "version": "0.0.0",
+  "description": "Nor",
+  "homepage": "https://github.com/crowdbotics/normalize-empty-string",
+  "author": {
+    "name": "Crowdbotics",
+    "email": "ghazali@crowdbotics.com",
+    "url": "crowdbotics.com"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "dynamodb"
+  ],
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "jest": "^19.0.2",
+    "jest-cli": "^19.0.1",
+    "nsp": "^2.6.3"
+  },
+  "scripts": {
+    "prepublish": "nsp check",
+    "lint": "eslint . --fix",
+    "test": "jest"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "env": {
+      "jest": true,
+      "node": true,
+      "es6": true
+    }
+  },
+  "repository": "git@github.com:crowdbotics/normalize-empty-string.git",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash.isempty": "^4.4.0",
+    "lodash.isstring": "^4.0.1"
+  }
+}
